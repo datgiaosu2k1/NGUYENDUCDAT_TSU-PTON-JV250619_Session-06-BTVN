@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    font-family:'Times New Roman', Times, serif;
+    background-color:white;
+    color:black;
+}
+header{
+    background-color:rgb(138, 181, 74);
+    color:white;
+    padding:18px 0 8px 0;
+    text-align:center;
+    position:relative;
+}
+header h1{
+    margin:0 0 6px 0;
+    font-size: 2em;
+    font-weight:bold;
+}
+header nav{
+    margin-top:-5px;
+}
+header nav a {
+    color:white;
+    background-color:;
+    text-decoration:none ;
+    margin: 0 10px;
+    font-size: 0.98em;
+    opacity:0.8;
+}
+header nav a:hover{
+    text-decoration:underline;
+    opacity:1;
+}
+.container{
+    display:flex;
+    margin:24px auto 0 auto;
+    max-width:900px;
+   
+}
+aside{
+    width:180px;
+    padding:15px;
+    border:1px solid rgb(14, 14, 14);
+    background-color: antiquewhite;
+}
+aside h2{
+    font-size:1.2em;
+    margin-bottom:12px;
+}
+aside ul{
+    list-style:none;
+    padding:0;    
+}
+aside ul li {
+    margin-bottom:7px;
+}
+aside ul li a{
+    color:blue;
+    text-decoration: none;
+    font-size:0.9em;
+
+}
+aside ul li a:hover{
+    text-decoration:underline;
+}
+main{
+    flex:1;
+    padding: 16px;
+}
+.post{
+    background-color: white;
+    margin-bottom: 18px;
+    border:1px solid white;
+    border-radius:4px;
+    padding:15px;
+    /* display:flex; */
+    align-items: center;
+    
+
+}
+.post img{
+    width:180px;
+    height:100px;
+    object-fit: contain;
+    margin-right:18px;
+}
+.post h3{
+    margin:0 0 5px 0;
+}
+.post p{
+    margin:0;
+    font-size:0.8em
+}
+footer {
+  background: #2e2e2e;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1em;
+  margin-top: 30px;
+}
