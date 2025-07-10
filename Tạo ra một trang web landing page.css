@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    font-family:"arial", sans-serif;
+    background-color: white;
+    color:black;
+}
+header{
+    background-color: aquamarine;
+    color: rgb(251, 248, 248);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:16px 30px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+header nav a{
+    color: white;
+    text-decoration:none;
+    margin-left:20px;
+    opacity:0.8;
+}
+header nav a:hover{
+    opacity:1;
+    text-decoration: none;
+}
+.hero{
+     text-align: center;
+      background-color: aliceblue;
+     ;
+}
+.hero h1{
+    font-size:3em;
+    margin-top:30;
+   
+}
+.hero p{
+    font-size:1.3em;
+    color:gray;
+    margin-bottom:30px;
+   
+}
+.hero button{
+    background-color: greenyellow;
+    color:white;
+    border: none;
+    padding:12px 30px;
+    border-radius: 8px;
+    transition:background 0.5s;
+}
+.hero button:hover{
+    background-color: beige;
+}
+.feature{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    margin:28px auto 0 auto;
+    max-width:900px;
+}
+.feature-box{
+    flex:1;
+    background:rgb(231, 224, 224);
+    border:1px solid;
+    border-radius:6px;
+    padding:10px 40px;
+    text-align:center;
+    font-size:1.3em;
+    min-width:160px;
+   
+}
+footer{
+    background-color:rgb(61, 60, 58);
+    color:white;
+    text-align:center;
+    padding:15px 0 10px 0;
+    margin-top:35px;
+
+}
